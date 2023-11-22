@@ -18,6 +18,11 @@
     <link href="{{asset('template/dist/css/style.min.css')}}" rel="stylesheet" />
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- @vite(['resources/sass/app.scss', 'resources/js/app.js']) -->
+
+    <link href="https://cdn.datatables.net/v/dt/jq-3.7.0/dt-1.13.8/datatables.min.css" rel="stylesheet">
+
+    <script src="https://cdn.datatables.net/v/dt/jq-3.7.0/dt-1.13.8/datatables.min.js"></script>
+
 </head>
 
 <body>
@@ -348,6 +353,7 @@
     <script src="{{asset('template/assets/libs/flot/jquery.flot.crosshair.js')}}"></script>
     <script src="{{asset('template/assets/libs/flot.tooltip/js/jquery.flot.tooltip.min.js')}}"></script>
     <script src="{{asset('template/dist/js/pages/chart/chart-page-init.js')}}"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 </body>
 
 </html>
